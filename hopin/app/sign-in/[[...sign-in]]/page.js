@@ -7,7 +7,7 @@ export default function Page() {
             <Image src='/cab.png' width = {900} height={1000} alt='cab'
                 className='object-contain w-full h-full'
             />
-            <div className='absolute top-15 right-100 left-125'>
+            <div className='absolute top-25 right-100 left-125'>
                 <SignIn />
             </div>
             
