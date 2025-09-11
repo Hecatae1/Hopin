@@ -1,15 +1,15 @@
-import { Text, View } from "react-native";
-
+import { Text, View, StatusBar } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 export default function Index() {
   return (
-    <View
+    <SafeAreaView
       style={{
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Text>Hopin Babyyy!</Text>
-    </View>
+      <Text>Hopin!</Text>
+    </SafeAreaView> 
   );
 }
